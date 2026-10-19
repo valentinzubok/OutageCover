@@ -9,7 +9,7 @@ import sys
 import urllib.request
 
 RPC = "https://studio-dev.genlayer.com/api"
-ADDRESS = "ADDRESS_PLACEHOLDER"
+ADDRESS = "0xF99E82326c4971d36dC71Bec29985c358939991B"
 SOURCE = pathlib.Path(__file__).resolve().parents[1] / "contracts" / "OutageCover.py"
 
 
