@@ -6,7 +6,8 @@
     "dev": "next dev --port 3021",
     "build": "next build",
     "start": "next start --port 3021",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test": "vitest run"
   },
   "dependencies": {
     "genlayer-js": "2.0.0-rc.1",
@@ -20,6 +21,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.3.3",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vitest": "^3.2.4"
   }
 }
